@@ -741,9 +741,10 @@ section {
 }
 
 .contact .info {
-  padding: 30px;
+  padding: 40px;
   background: #fff;
   width: 100%;
+  height: 450px;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -757,8 +758,9 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50px;
+  border-radius: 4px;
   transition: all 0.3s ease-in-out;
+  
 }
 
 .contact .info h4 {
@@ -767,6 +769,7 @@ section {
   font-weight: 600;
   margin-bottom: 5px;
   color: #050d18;
+  
 }
 
 .contact .info p {
@@ -943,7 +946,7 @@ section {
 
 .breadcrumbs ol li + li::before {
   display: inline-block;
-  padding-right: 10px;
+  padding-right: 0px;
   color: #0e2442;
   content: "/";
 }
@@ -1080,3 +1083,19 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+
+    .google-maps {
+    position: relative;
+    padding-bottom: 475px; 
+    height: 0;
+    overflow: hidden;
+    }
+    .google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 450px !important;
+    }
+    
