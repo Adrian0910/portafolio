@@ -6,5 +6,4 @@ Portafolio de proyectos usando algunas tecnologías como:
 * Flutter
 * Java
 * C++
-
-
+version 2.0
