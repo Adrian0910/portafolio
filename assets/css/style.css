@@ -15,6 +15,7 @@ body {
 
 a {
   color: #149ddd;
+  border-radius: 10px;
 }
 
 a:hover {
@@ -516,7 +517,6 @@ section {
   background: rgba(20, 157, 221, 0.75);
   transition: 0.3s;
   width: 50%;
-  border-radius: 5px 5px 0 0;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
